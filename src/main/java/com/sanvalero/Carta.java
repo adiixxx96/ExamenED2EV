@@ -2,18 +2,18 @@ package com.sanvalero;
 
 public class Carta {
     private String palo;
-    private String numero;
+    private String numeros;
 
     public Carta(String palo, String numero) {
         this.palo = palo;
-        this.numero = numero;
+        this.numeros = numeros;
     }
 
     @Override
     public String toString() {
         return "Carta{" +
                 "palo='" + palo + '\'' +
-                ", numero='" + numero + '\'' +
+                ", numeros='" + numeros + '\'' +
                 '}';
     }
 
