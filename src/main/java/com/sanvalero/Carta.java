@@ -1,19 +1,20 @@
 package com.sanvalero;
 
 public class Carta {
-    private String palo;
+
+    private String palos;
     private String numeros;
 
-    public Carta(String palo, String numeros) {
-        this.palo = palo;
+    public Carta(String palos, String numeros) {
+        this.palos = palos;
         this.numeros = numeros;
     }
 
     @Override
     public String toString() {
         return "Carta{" +
-                "palo='" + palo + '\'' +
-                ", numero='" + numeros + '\'' +
+                "palos='" + palos + '\'' +
+                ", numeros='" + numeros + '\'' +
                 '}';
     }
 
